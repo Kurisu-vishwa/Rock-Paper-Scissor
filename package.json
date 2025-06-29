@@ -1,0 +1,10 @@
+{
+  "name": "rps-game",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo \"Static site in ./src; nothing to build.\""
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
