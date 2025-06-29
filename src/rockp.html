@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <audio src="C:\Users\vishw\javascript\songs\Chemtrails Over The Country Club (Audio) - Lana Del Rey.mp3"></audio>
+  <head>
+    <title class="titlee">Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+  </head>
+  <body class="bdy">
+    <div class="btns">
+      
+    <p class="h11">Rock Paper Scissors</p>
+    <div class="imgbtn">
+        <button onclick="
+          playGame('rock');
+        " class="circlebtn" ><img src="images/rock-hand.webp"  class="rckbtn"></button>
+
+        <button onclick="
+          playGame('paper');
+        " class="circlebtn"><img src="images/paper-hand.webp" class="papbtn"></button>
+
+        <button  onclick="
+          playGame('scissors');
+        "class="circlebtn"><img src="images/scissors-hand.webp" class="scibtn"></button>
+        </div>
+    
+
+  
+    <p class="scrbtn"></p>
+    <p class="out"></p>
+    <p class="moves"></p>
+    
+    <button onclick="
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      res();
+    " class="resetbtn">Reset Score</button>
+    
+
+    <script src="rps.js"></script>
+      
+  </body>
+</html>
